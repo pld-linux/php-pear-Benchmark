@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Benchmark
 %define		_pearname	%{_class}
-Summary:	%{_class} - benchmark PHP scripts or function calls
-Summary(pl):	%{_class} - testowanie szybko¶ci skryptów i funkcji PHP
+Summary:	%{_pearname} - benchmark PHP scripts or function calls
+Summary(pl):	%{_pearname} - testowanie szybko¶ci skryptów i funkcji PHP
 Name:		php-pear-%{_pearname}
 Version:	1.1
 Release:	2
