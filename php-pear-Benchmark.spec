@@ -8,6 +8,7 @@ Version:	1.2
 Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
+# Source0-md5:	17a5d15f9302ac0732a7fb037bf3326f
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
