@@ -7,11 +7,11 @@ Summary:	%{_pearname} - benchmark PHP scripts or function calls
 Summary(pl):	%{_pearname} - testowanie szybko¶ci skryptów i funkcji PHP
 Name:		php-pear-%{_pearname}
 Version:	1.2.1
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	47114bf9e7ff959d8806a70de9ef36b7
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	47114bf9e7ff959d8806a70de9ef36b7
 URL:		http://pear.php.net/package/Benchmark/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
