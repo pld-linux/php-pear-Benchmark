@@ -1,6 +1,8 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Benchmark
+%define		_status		stable
 %define		_pearname	%{_class}
+
 Summary:	%{_pearname} - benchmark PHP scripts or function calls
 Summary(pl):	%{_pearname} - testowanie szybko¶ci skryptów i funkcji PHP
 Name:		php-pear-%{_pearname}
@@ -19,8 +21,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Framework to benchmark PHP scripts or function calls.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 ¦rodowisko do testowania szybko¶ci skryptów PHP i wywo³añ funkcji.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
