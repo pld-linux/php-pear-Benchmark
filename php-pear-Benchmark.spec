@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Framework to benchmark PHP scripts or function calls.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 ¦rodowisko do testowania szybko¶ci skryptów PHP i wywo³añ funkcji.
