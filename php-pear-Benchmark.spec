@@ -5,7 +5,7 @@ Summary:	%{_class} - benchmark PHP scripts or function calls
 Summary(pl):	%{_class} - testowanie szybko¶ci skryptów i funkcji PHP
 Name:		php-pear-%{_pearname}
 Version:	1.1
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
