@@ -2,7 +2,7 @@
 %define		_class		Benchmark
 %define		_pearname	%{_class}
 Summary:	%{_class} - benchmark PHP scripts or function calls
-Summary(pl):	%{_class} -
+Summary(pl):	%{_class} - testowanie szybko¶ci skryptów i funkcji PHP
 Name:		php-pear-%{_pearname}
 Version:	1.1
 Release:	1
@@ -17,6 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Framework to benchmark PHP scripts or function calls.
+
+%description -l pl
+¦rodowisko do testowania szybko¶ci skryptów PHP i wywo³añ funkcji.
 
 %prep
 %setup -q -c
