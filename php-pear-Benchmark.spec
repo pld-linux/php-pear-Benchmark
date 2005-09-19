@@ -13,7 +13,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	2308cfee599debba218ff1850bbf91c7
 URL:		http://pear.php.net/package/Benchmark/
-BuildRequires:	rpm-php-pearprov >= 4.4.2-10.2
+BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
