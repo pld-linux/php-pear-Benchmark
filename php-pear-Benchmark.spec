@@ -7,7 +7,7 @@ Summary:	%{_pearname} - benchmark PHP scripts or function calls
 Summary(pl):	%{_pearname} - testowanie szybko¶ci skryptów i funkcji PHP
 Name:		php-pear-%{_pearname}
 Version:	1.2.4
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -36,12 +36,17 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{php_pear_dir}
 %pear_package_install
 
+%post
+if [ -f %{_docdir}/%{name}-%{version}/optional-packages.txt ]; then
+	cat %{_docdir}/%{name}-%{version}/optional-packages.txt
+fi
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc install.log
+%doc install.log optional-packages.txt
 %doc docs/%{_pearname}/doc/*
 %{php_pear_dir}/.registry/*.reg
 %dir %{php_pear_dir}/%{_class}
