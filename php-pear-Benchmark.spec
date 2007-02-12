@@ -4,7 +4,7 @@
 %define		_pearname	%{_class}
 
 Summary:	%{_pearname} - benchmark PHP scripts or function calls
-Summary(pl):	%{_pearname} - testowanie szybko∂ci skryptÛw i funkcji PHP
+Summary(pl.UTF-8):   %{_pearname} - testowanie szybko≈õci skrypt√≥w i funkcji PHP
 Name:		php-pear-%{_pearname}
 Version:	1.2.6
 Release:	1
@@ -25,8 +25,8 @@ Framework to benchmark PHP scripts or function calls.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-¶rodowisko do testowania szybko∂ci skryptÛw PHP i wywo≥aÒ funkcji.
+%description -l pl.UTF-8
+≈örodowisko do testowania szybko≈õci skrypt√≥w PHP i wywo≈Ça≈Ñ funkcji.
 
 Ta klasa ma w PEAR status: %{_status}.
 
