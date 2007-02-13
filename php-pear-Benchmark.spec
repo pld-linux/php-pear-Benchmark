@@ -4,7 +4,7 @@
 %define		_pearname	%{_class}
 
 Summary:	%{_pearname} - benchmark PHP scripts or function calls
-Summary(pl.UTF-8):   %{_pearname} - testowanie szybkości skryptów i funkcji PHP
+Summary(pl.UTF-8):	%{_pearname} - testowanie szybkości skryptów i funkcji PHP
 Name:		php-pear-%{_pearname}
 Version:	1.2.6
 Release:	1
