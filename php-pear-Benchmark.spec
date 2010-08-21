@@ -2,12 +2,11 @@
 %define		_class		Benchmark
 %define		_status		stable
 %define		_pearname	%{_class}
-
 Summary:	%{_pearname} - benchmark PHP scripts or function calls
 Summary(pl.UTF-8):	%{_pearname} - testowanie szybkości skryptów i funkcji PHP
 Name:		php-pear-%{_pearname}
 Version:	1.2.7
-Release:	2
+Release:	3
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -17,6 +16,7 @@ BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
+Suggests:	php-bcmath
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
