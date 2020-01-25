@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Benchmark
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - benchmark PHP scripts or function calls
 Summary(pl.UTF-8):	%{pearname} - testowanie szybkości skryptów i funkcji PHP
 Name:		php-pear-%{pearname}
