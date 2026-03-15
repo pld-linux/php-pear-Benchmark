@@ -4,7 +4,7 @@ Summary:	%{pearname} - benchmark PHP scripts or function calls
 Summary(pl.UTF-8):	%{pearname} - testowanie szybkości skryptów i funkcji PHP
 Name:		php-pear-%{pearname}
 Version:	1.2.9
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
